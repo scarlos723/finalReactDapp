@@ -478,7 +478,7 @@ const App = () => {
     const Interface =()=>{
       return(
         <div className="container">
-        <h1 className="title">Dapp El Mejor P ostor</h1>
+        <h1 className="title">Dapp El Mejor Postor</h1>
           <section className="first-grid">
           <div className="info-account">
               <h2>Your Address:</h2>
