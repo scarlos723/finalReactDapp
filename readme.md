@@ -1,9 +1,10 @@
-### Started
+### Correr la Dapp
 
-# go to client folder and execute
+###### Debes ubicarte en la carpeta "client", y desde alli ejecutar,
+`npm install`
 
-npm i
+###### Para iniciar el projecto debes ejecutar 
 
-# for init sever execute
+`npm start`
 
-npm start
+##### DEbe asegurarsde que la wallet este operando en la testnet de Rinkeby
