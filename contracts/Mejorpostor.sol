@@ -32,8 +32,9 @@ contract Mejorpostor is ERC20("Cartman Coin", "CTMC") {
 
     function postulate() public payable {
         require(msg.value > balance, "Not enought funds");
-        payable(previousOwner).transfer(balance);
+        uint256 amount = balance;
         balance = msg.value;
+        payable(previousOwner).transfer(amount);
         previousOwner = currentOwner;
         currentOwner = msg.sender;
         _mint(previousOwner, 1);
